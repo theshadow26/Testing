@@ -7,7 +7,11 @@ function Todo (props) {
     <List>
       <ListItem>
         <ListItemAvatar />
-        <ListItemText primary={props.text} secondary='pretttt dummy' />
+        <ListItemText
+          primary={props.text}
+          secondary='pretttt dummy'
+        />
+
       </ListItem>
     </List>
   )
